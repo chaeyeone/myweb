@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>웹 과제</title>
+
+    <style>
+        body { background-color: rgb(245, 245, 245); }
+
+        #nav>a {
+            color: black;
+            /*color: rgb(255, 213, 213);*/
+            font-family: "Cooper Black";
+            display: block;
+            float: left;
+            font-size: 35px;
+            line-height: 40px;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            position: -webkit-sticky;  /* Safari 브라우저 지원 */
+            position: sticky;  /*헤더를 화면 상단에 붙이기*/
+            top: 0;
+            text-decoration: none;
+            color: black;
+        }
+
+        #nav>ul { float: right; }
+
+        #nav>ul li {
+            font-size: 18px;
+            float: left;
+            padding: 0 30px;
+            line-height: 80px;
+            font-family: "Arial Black";
+        }
+
+        li a:hover {
+            background-color: rgb(255, 229, 30);
+            border-radius: 10px 100px / 30px;
+        }
+
+        li a { text-decoration: none; color: black; }
+
+        #nav>ul li :hover {
+            background-color: rgb(255, 229, 30);
+            border-radius: 10px 100px / 30px;
+        }
+
+        #nav>a {
+            width: 60px;
+            height: 80px;
+            background: #71D7FB;
+            border-radius: 100px / 50px;
+        }
+    </style>
+</head>
+
+
+<body>
+    <nav id="nav">
+        <a class="active" href="index.html">HO<br>ME.</a>
+        <ul>
+            <li><a href="./html/nav/gangneung.html">Gangneung</a></li>
+            <li><a href="./html/nav/stayall.html">Stay</a></li>
+            <li><a href="./html/nav/about.html">About</a></li>
+        </ul>
+    </nav>
+
+    <p style="text-align: center; font-family: 나눔스퀘어_ac ExtraBold; font-size: 38px; position:absolute; left:60px; top:300px;"><mark>강릉</mark> 여행을 계획 중인가요?</p>
+    <p style="text-align: center; font-family: 나눔스퀘어_ac ExtraBold; font-size: 38px; position:absolute; left:1100px; top:500px;"><mark>선택</mark>만 하세요!</p>
+
+
+    <!--HOTEL-->
+    <div style="position:absolute; left:528px; top:220px;">
+        <a href="./html/main/hotelmain.html">
+            <img src="./img/hotelmain.jpeg" alt="mainpage hotel" width="160px" height="310px">
+        </a>
+    </div>
+
+    <!--AIRBNB-->
+    <div style="position:absolute; left:698px; top:220px;">
+        <a href="./html/main/airbnbmain.html">
+            <img src="./img/airbnbmain.jpeg" alt="mainpage airbnb" width="330px" height="160px">
+        </a>
+    </div>
+
+    <!--PENSION-->
+    <div style="position:absolute; left:698px; top:390px;">
+        <a href="./html/main/pensionmain.html">
+            <img src="./img/pensionmain.jpg" alt="mainpage pension" width="160px" height="310px">
+        </a>
+    </div>
+
+    <!--GUESTHOUSE-->
+    <div style="position:absolute; left:868px; top:390px;">
+        <a href="./html/main/guesthousemain.html">
+            <img src="./img/guesthousemain.jpeg" alt="mainpage guesthouse" width="160px" height="160px">
+        </a>
+    </div>
+
+    <!--POOLVILLA-->
+    <div style="position:absolute; left:868px; top:560px;">
+        <a href="./html/main/poolvillamain.html">
+            <img src="./img/poolvillamain.jpeg" alt="mainpage poolvilla" width="160px" height="310px">
+        </a>
+    </div>
+
+    <!--RESORT-->
+    <div style="position:absolute; left:528px; top:540px;">
+        <a href="./html/main/resortmain.html">
+            <img src="./img/resortmain.jpg" alt="mainpage resort" width="160px" height="160px">
+        </a>
+    </div>
+
+    <!--CAMPING-->
+    <div style="position:absolute; left:528px; top:710px;">
+        <a href="./html/main/campingmain.html">
+            <img src="./img/campingmain.jpeg" alt="mainpage camping" width="330px" height="160px">
+        </a>
+    </div>
+
+</body>
+</html>
