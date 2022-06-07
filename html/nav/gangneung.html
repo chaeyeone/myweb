@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>웹 과제</title>
+
+    <style>
+        body { background-color: rgb(214, 245, 205); }
+
+        #nav>a {
+            color: black;
+            font-family: "Cooper Black";
+            display: block;
+            float: left;
+            font-size: 35px;
+            line-height: 40px;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            position: -webkit-sticky;  /* Safari 브라우저 지원 */
+            position: sticky;  /*헤더를 화면 상단에 붙이기*/
+            top: 0;
+            text-decoration: none;
+            color: black;
+        }
+
+        #nav>ul { float: right; }
+
+        #nav>ul li {
+            font-size: 18px;
+            float: left;
+            padding: 0 30px;
+            line-height: 80px;
+            font-family: "Arial Black";
+        }
+
+        li a:hover {
+            background-color: rgb(255, 229, 30);
+            border-radius: 10px 100px / 30px;
+        }
+
+        li a { text-decoration: none; color: black;
+        }
+
+        .active {
+            background-color: rgb(255, 229, 30);
+            border-radius: 10px 100px / 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav id="nav">
+        <a href="../../index.html">HO<br>ME.</a>
+        <ul>
+            <li><a class="active" href="gangneung.html">Gangneung</a></li>
+            <li><a href="stayall.html">Stay</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+
+    <div style="position:absolute; left:50px; top:220px;">
+        <p style="text-align: center; font-family: 나눔스퀘어_ac ExtraBold; font-size: 38px;"><mark>권역별 지도</mark>를 참고하여 숙소를 선택해보세요!</p><br>
+        <p style="font-family: 나눔스퀘어_ac ExtraBold; font-size: 18px;">
+            <a style="background-color: #0c8c52; color: rgb(255, 255, 255); padding: 14px 25px; text-align: center; text-decoration: none; display: inline-block;" 
+            href="https://www.gn.go.kr/tour/js/common/pdf.js/web/viewer.html?file=/tour/uloads_clone/prManage/prManage_202203300535398081.pdf" title="클릭!">강릉시 관광안내지도 자세히보기</a>
+        </p>
+        <img src="../../img/map1.jpg" alt="map1" width="95%" height="95%">
+        <img src="../../img/map2.jpg" alt="map2" width="95%" height="95%">
+    </div>
+
+</body>
+</html>

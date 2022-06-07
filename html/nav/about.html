@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>웹 과제</title>
+
+    <style>
+        body { background-color: rgb(255, 205, 238); }
+
+        #nav>a {
+            color: black;
+            font-family: "Cooper Black";
+            display: block;
+            float: left;
+            font-size: 35px;
+            line-height: 40px;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            position: -webkit-sticky;  /* Safari 브라우저 지원 */
+            position: sticky;  /*헤더를 화면 상단에 붙이기*/
+            top: 0;
+            text-decoration: none;
+            color: black;
+        }
+
+        #nav>ul { float: right; }
+
+        #nav>ul li {
+            font-size: 18px;
+            float: left;
+            padding: 0 30px;
+            line-height: 80px;
+            font-family: "Arial Black";
+        }
+
+        li a:hover {
+            background-color: rgb(255, 229, 30);
+            border-radius: 10px 100px / 30px;
+        }
+
+        li a { text-decoration: none; color: black; }
+
+        .active {
+            background-color: rgb(255, 229, 30);
+            border-radius: 10px 100px / 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav id="nav">
+        <a href="../../index.html">HO<br>ME.</a>
+        <ul>
+            <li><a href="gangneung.html">Gangneung</a></li>
+            <li><a href="stayall.html">Stay</a></li>
+            <li><a class="active" href="about.html">About</a></li>
+        </ul>
+    </nav>
+
+    <pre style="font-family: 나눔스퀘어_ac ExtraBold; font-size: 30px; position:absolute; left:100px; top:180px;">
+    <mark>"숙소를 추천해드려요"</mark>
+
+
+
+    강릉의 괜찮은 숙소를 모아 놓은 웹사이트 입니다.
+
+    숙소를 물색하느라 쓰는 시간을 아끼고, 이상적이라고 생각했던 장소들을 추천받을 수 있습니다.
+    
+
+
+    만족스런 숙소를 구하고 싶으면서도 
+
+    숙소를 찾아보는 데에 시간을 들이기 아까운, 바쁜 사람들을 위합니다.
+    </pre>
+
+</body>
+</html>

@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>웹 과제</title>
+
+    <style>
+        body { background-color: rgb(164, 226, 255); }
+
+        #nav>a {
+            color: black;
+            font-family: "Cooper Black";
+            display: block;
+            float: left;
+            font-size: 35px;
+            line-height: 40px;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            position: -webkit-sticky;  /* Safari 브라우저 지원 */
+            position: sticky;  /*헤더를 화면 상단에 붙이기*/
+            top: 0;
+            text-decoration: none;
+            color: black;
+        }
+
+        #nav>ul { float: right; }
+
+        #nav>ul li {
+            font-size: 18px;
+            float: left;
+            padding: 0 30px;
+            line-height: 80px;
+            font-family: "Arial Black";
+        }
+
+        li a:hover {
+            background-color: rgb(255, 229, 30);
+            border-radius: 10px 100px / 30px;
+        }
+
+        li a { text-decoration: none; color: black; }
+
+        .active {
+            background-color: rgb(255, 229, 30);
+            border-radius: 10px 100px / 30px;
+        }
+
+        table {
+            font-family: "Arial Black", "나눔스퀘어_ac ExtraBold";
+            border-collapse: collapse;
+            width: 87%;
+        }
+
+        td {
+            border: 1px solid #ffffff;
+            text-align: left;
+            padding: 8px;
+        }
+
+        td a {
+            color:rgb(20, 56, 104)
+        }
+
+        tr:nth-child(even) {
+            background-color: #ffffff;
+        }
+    </style>
+</head>
+
+<body>
+    <nav id="nav">
+        <a href="../../index.html">HO<br>ME.</a>
+        <ul>
+            <li><a href="gangneung.html">Gangneung</a></li>
+            <li><a class="active" href="stayall.html">Stay</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+
+
+    <h2 style="text-align: center; font-family: 나눔스퀘어_ac ExtraBold; font-size: 38px; position:absolute; left:100px; top:180px;">숙소 모아보기</h2>
+
+<table style="position:absolute; left:100px; top:270px;">
+  <tr>
+    <td>HOTEL</td>
+    <td>스카이베이</td>
+    <td><a href="https://skybay.co.kr/">https://skybay.co.kr/</a></td>
+  </tr>
+  <tr>
+    <td>HOTEL</td>
+    <td>세인트존스</td>
+    <td><a href="https://new.stjohns.co.kr/">https://new.stjohns.co.kr/</a></td>
+  </tr>
+  <tr>
+    <td>HOTEL</td>
+    <td>씨마크</td>
+    <td><a href="https://www.seamarqhotel.com/">https://www.seamarqhotel.com/</a></td>
+  </tr>
+  <tr>
+    <td>AIRBNB</td>
+    <td>스테이시호일</td>
+    <td><a href="https://www.airbnb.co.kr/rooms/43298070?s=67&c=.pi115.pk0_9&a4ptk=23862_0_9_246862&af=115&source_impression_id=p3_1619603208_H%2BfuKTDuwuIyY4vP&guests=1&adults=1">https://www.airbnb.co.kr/StaySihoil/</a></td>
+  </tr>
+  <tr>
+    <td>AIRBNB</td>
+    <td>명주하녹</td>
+    <td><a href="https://www.instagram.com/myeongju_hanok/">https://www.instagram.com/myeongju_hanok/</a></td>
+  </tr>
+  <tr>
+    <td>AIRBNB</td>
+    <td>스테이밤밤</td>
+    <td><a href="https://www.instagram.com/bambam_stay/">https://www.instagram.com/bambam_stay/</a></td>
+  </tr>
+  <tr>
+    <td>AIRBNB</td>
+    <td>목가블루</td>
+    <td><a href="https://www.instagram.com/mokga_blue/">https://www.instagram.com/mokga_blue/</a></td>
+  </tr>
+  <tr>
+    <td>PENSION</td>
+    <td>테라스마크</td>
+    <td><a href="https://www.terracemarq.com/">https://www.terracemarq.com/</a></td>
+  </tr>
+  <tr>
+    <td>PENSION</td>
+    <td>오월의정원포레스트</td>
+    <td><a href="http://www.maygardenforest.kr/">http://www.maygardenforest.kr/</a></td>
+  </tr>
+  <tr>
+    <td>PENSION</td>
+    <td>경포스테이195</td>
+    <td><a href="http://stay195.co.kr/">http://stay195.co.kr/</a></td>
+  </tr>
+  <tr>
+    <td>PENSION</td>
+    <td>시닉94</td>
+    <td><a href="http://www.scenic94pension.kr/">http://www.scenic94pension.kr/</a></td>
+  </tr>
+  <tr>
+    <td>GUESTHOUSE</td>
+    <td>위크엔더스</td>
+    <td><a href="https://weekenders.kr/">https://weekenders.kr/</a></td>
+  </tr>
+  <tr>
+    <td>GUESTHOUSE</td>
+    <td>시호일</td>
+    <td><a href="https://www.instagram.com/sihoil_official/">https://www.instagram.com/sihoil_official/</a></td>
+  </tr>
+  <tr>
+    <td>GUESTHOUSE</td>
+    <td>더다온</td>
+    <td><a href="https://www.instagram.com/thedaon_gn/">https://www.instagram.com/thedaon_gn/</a></td>
+  </tr>
+  <tr>
+    <td>RESORT</td>
+    <td>라카이</td>
+    <td><a href="https://lakaisandpine.co.kr/">https://lakaisandpine.co.kr/</a></td>
+  </tr>
+  <tr>
+    <td>POOLVILLA</td>
+    <td>비치크루즈</td>
+    <td><a href="http://www.esuncruise.com/view/index.do">http://www.esuncruise.com/</a></td>
+  </tr>
+  <tr>
+    <td>POOLVILLA</td>
+    <td>라미아까사</td>
+    <td><a href="http://lamiacasa.co.kr/">http://lamiacasa.co.kr/</a></td>
+  </tr>
+  <tr>
+    <td>POOLVILLA</td>
+    <td>스카리아</td>
+    <td><a href="http://skaria.co.kr/">http://skaria.co.kr/</a></td>
+  </tr>
+  <tr>
+    <td>CAMPING</td>
+    <td>와우파크카라반</td>
+    <td><a href="http://wawoopark.co.kr/">http://wawoopark.co.kr/</a></td>
+  </tr>
+  <tr>
+    <td>CAMPING</td>
+    <td>베이스캠프</td>
+    <td><a href="http://fourskyglamping.com/">http://fourskyglamping.com/</a></td>
+  </tr>
+</table>
+
+
+</body>
+</html>
